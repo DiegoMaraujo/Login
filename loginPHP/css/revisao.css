@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+}
+body{
+	
+}
+.data{
+	margin: auto;/*centralizado*/
+	height: 25px;/*altura*/
+	width: 500px;/*largura*/
+	color: antiquewhite;/*cor da fonte*/
+	font-family: helvetica;/*fonte*/
+	font-weight: 100;/*negrito bold*/
+	text-align: center;
+
+}
+.borda{
+	border-style: none solid solid solid;/*cria uma borda sem a parte superior*/
+	border-color: white;
+	border-radius: 0px 0px 15px 15px /*criar borda para lados inferior*/
+	box-shadow:1px 1px 1px #888888;/*criando uma sombra*/
+}
+.formulario{
+	width: 250px;
+	height: 250px;
+	background: #ccc;
+	display: table;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #696969;
+	font-family: helvetica;
+	color: #696969;
+}
+.interna{
+	margin: auto;
+	text-align: right;
+	padding: 45px
+}
+.verde{
+	background-color: #166478
+
+}
+input[type= "text"],input[type ="password"]{
+	height: 20px;
+	line-height: 20px;
+	border-radius: 5px;
+	width: 75%;
+	background-color: #fffacd;
+	padding: 5px;
+	color: #166428;
+	font-size: 16px;
+
+
+}
+.esqueceu{
+	color: #696969;
+	font-size: 10px;
+
+}
+.centraliza{
+	margin-top: 120px
+}
+.fonte{
+	font-family: arial;
+	font-size: 32px;
+	color: #fff;
+	text-shadow: 3px 3px 3px #000;
+}
+.topo{
+	padding-left: 20px;
+	margin: 0;
+	background-color: #8d8970;
+	height: 80px;
+	background: : -webkit-gradient(linear, left top, left bottom, from(#ccc),to (#2f4f4f));
+}

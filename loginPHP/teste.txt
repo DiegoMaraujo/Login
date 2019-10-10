@@ -1,0 +1,10 @@
+create database teste;
+use teste;
+create table usuario(
+	idUsuario int not null AUTO_INCREMENT primary key,
+	nome varchar(50) not null,
+	email varchar(100) not null,
+	senha varchar(32) not null
+	
+);
+insert into usuario set nome = 'admin', senha = md5('123'), email = '123@gmail.com';

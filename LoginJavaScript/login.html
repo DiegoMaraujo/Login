@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Login</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+		<script src = "JS/acesso.js"> </script>
+	</head>
+	<body>
+		<div class="centro">
+			<h1> Formulário </h1>
+			<h2>Preencha todos os dados</h2>
+			<fieldset>
+				<legend>Acesso Restrito</legend>
+				<form name="form" class="centro">
+					Nome:<input type="text" name="nome"><br><br>
+					Senha:<input type="password" name="senha"><br><br>
+					<input type="button" name="botao" value="Login" class="centralizaBotao" onclick="acesso(this.form)">
+					<input type="reset" name="limpar" value="Limpar">				
+				</form>
+			</fieldset>
+		</div>
+	</body>
+</html>
